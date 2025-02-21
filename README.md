@@ -6,8 +6,8 @@ An Express - JS API for interact easyly with the Geometry Dash servers, using JS
 
 |Endpoint|Parameter|Type|
 |:-------|:--------|:---|
-|`/getGJusers20`|`userName`|`string`|
-|`/getGJuserInfo20`|`userID`|`string`|
+|`/getGJUsers20`|`userName`|`string`|
+|`/getGJUserInfo20`|`userID`|`string`|
 
 ### Example
 
