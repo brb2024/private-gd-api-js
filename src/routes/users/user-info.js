@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import { getUserInfo20 } from '../../handlers/users/user-info20.js'
+import { getUserInfo20 } from '../../handlers/users/user-info.js'
 
 const userInfo20Router = Router()
 

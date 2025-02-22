@@ -1,8 +1,8 @@
-export default function userInfo20Config (userId) {
+export default function usersConfig (userName) {
   return {
     gameVersion: '22',
     binaryVersion: '45',
-    targetAccountID: userId,
+    str: userName,
     secret: 'Wmfd2893gb7'
   }
 }

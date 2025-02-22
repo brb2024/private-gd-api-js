@@ -1,13 +1,14 @@
 # JavaScript Geometry Dash API
 
-An Express - JS API for interact easyly with the Geometry Dash servers, using JSON format.
+An express - js API for interact easily with the Geometry Dash Servers, using json format as body of the post requests.
 
-## API
+### API
 
-|Endpoint|Parameter|Type|
+|Endpoint|Method|Body Parameters|
 |:-------|:--------|:---|
-|`/getGJUsers20`|`userName`|`string`|
-|`/getGJUserInfo20`|`userID`|`string`|
+|`/getGJUsers20`|`POST`|`{"userName": ""}`|
+|`/getGJUserInfo20`|`POST`|`{"accountID": ""}`|
+|`/getGJAccountComments20`|`POST`|`{"accountID": "", "page": ""}`|
 
 ### Example
 
@@ -23,5 +24,5 @@ curl -X POST localhost:8081/getGJUsers20 -H "Content-Type:application/json" -d "
 1:xstaticstorm:2:56164893:13:163:17:2831:6:0:9:394:10:12:11:0:14:0:15:0:16:7843252:3:20232:52:211:8:10:4:1029#999:0:10
 ```
 
-> [!WARNING]
-> This don't have rate limit.
+> [!IMPORTANT]
+> Project in progress!.
