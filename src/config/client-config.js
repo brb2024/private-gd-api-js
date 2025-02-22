@@ -1,4 +1,4 @@
-export default function (postData, reqPath) {
+export default function clientConfig (postData, reqPath) {
   return {
     hostname: 'www.boomlings.com',
     path: reqPath,
