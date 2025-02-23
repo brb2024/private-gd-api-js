@@ -10,6 +10,7 @@ An express - js API for interact easily with the Geometry Dash Servers, using js
 |`/getGJUserInfo20`|`POST`|`{"accountID": ""}`|
 |`/getGJAccountComments20`|`POST`|`{"accountID": "", "page": ""}`|
 |`/getGJCommentHistory`|`POST`|`{"page": "", "userID": ""}`|
+|`//getGJComments21`|`POST`|`{"page": "", "levelID": ""}`|
 
 ### Example
 
